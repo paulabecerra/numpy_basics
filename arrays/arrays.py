@@ -55,3 +55,8 @@ print(M)
 #Create a 3x3 identity matrix
 N = np.eye(3)
 print(N)
+
+#Create a uninitialized array of three integers. The values will be whatever
+#happens to already exist at that memory location
+O = np.empty(3)
+print(O)
